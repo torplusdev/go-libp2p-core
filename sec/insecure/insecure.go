@@ -107,6 +107,11 @@ func (t *Transport) SecureOutbound(ctx context.Context, insecure net.Conn, p pee
 			p, conn.remote)
 	}
 
+	if t.key == nil && conn.remote == "" {
+		// set the remote peer id if we were initialiazed without keys
+		conn.remote = p
+	}
+
 	return conn, nil
 }
 
