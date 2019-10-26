@@ -5,7 +5,7 @@ import (
 
 	ma "github.com/multiformats/go-multiaddr"
 
-	. "github.com/libp2p/go-libp2p-core/peer"
+	. "paidpiper.com/libp2p/go-libp2p-core/peer"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p-core
+module paidpiper.com/libp2p/go-libp2p-core
 
 require (
 	github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3
@@ -7,6 +7,7 @@ require (
 	github.com/ipfs/go-cid v0.0.3
 	github.com/jbenet/goprocess v0.1.3
 	github.com/libp2p/go-flow-metrics v0.0.1
+	github.com/libp2p/go-libp2p-core v0.2.3
 	github.com/libp2p/go-msgio v0.0.4
 	github.com/libp2p/go-openssl v0.0.3
 	github.com/minio/sha256-simd v0.1.1

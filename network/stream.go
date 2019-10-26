@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/libp2p/go-libp2p-core/mux"
-	"github.com/libp2p/go-libp2p-core/protocol"
+	"paidpiper.com/libp2p/go-libp2p-core/mux"
+	"paidpiper.com/libp2p/go-libp2p-core/protocol"
 )
 
 // Stream represents a bidirectional channel between two agents in
