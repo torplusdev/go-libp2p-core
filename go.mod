@@ -19,4 +19,8 @@ require (
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
 )
 
+replace github.com/multiformats/go-multiaddr => ../go-multiaddr
+
+replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
+
 go 1.12
