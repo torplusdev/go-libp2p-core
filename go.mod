@@ -1,5 +1,9 @@
 module paidpiper.com/libp2p/go-libp2p-core
 
+replace github.com/multiformats/go-multiaddr => ../go-multiaddr
+
+replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
+
 require (
 	github.com/btcsuite/btcd v0.0.0-20190824003749-130ea5bddde3
 	github.com/coreos/go-semver v0.3.0
@@ -18,9 +22,5 @@ require (
 	go.opencensus.io v0.22.1
 	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
 )
-
-replace github.com/multiformats/go-multiaddr => ../go-multiaddr
-
-replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
 
 go 1.12

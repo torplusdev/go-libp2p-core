@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
-	"paidpiper.com/libp2p/go-libp2p-core/protocol"
+	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/protocol"
 )
 
 func BenchmarkBandwidthCounter(b *testing.B) {

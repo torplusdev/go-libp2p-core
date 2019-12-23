@@ -10,7 +10,7 @@ import (
 	"io"
 	"math/big"
 
-	pb "paidpiper.com/libp2p/go-libp2p-core/crypto/pb"
+	pb "github.com/libp2p/go-libp2p-core/crypto/pb"
 
 	sha256 "github.com/minio/sha256-simd"
 )

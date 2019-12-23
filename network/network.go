@@ -10,8 +10,8 @@ import (
 	"io"
 
 	"github.com/jbenet/goprocess"
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
-	"paidpiper.com/libp2p/go-libp2p-core/peerstore"
+	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/peerstore"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

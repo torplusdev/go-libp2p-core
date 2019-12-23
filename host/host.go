@@ -6,7 +6,7 @@ package host
 import (
 	"context"
 
-	"paidpiper.com/libp2p/go-libp2p-core/connmgr"
+	"github.com/libp2p/go-libp2p-core/connmgr"
 	"github.com/libp2p/go-libp2p-core/event"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"

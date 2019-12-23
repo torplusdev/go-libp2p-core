@@ -9,9 +9,9 @@ import (
 	"math"
 	"time"
 
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/peer"
 
-	ic "paidpiper.com/libp2p/go-libp2p-core/crypto"
+	ic "github.com/libp2p/go-libp2p-core/crypto"
 
 	ma "github.com/multiformats/go-multiaddr"
 )

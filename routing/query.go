@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/peer"
 )
 
 type QueryEventType int

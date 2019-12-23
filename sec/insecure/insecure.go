@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"net"
 
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
-	"paidpiper.com/libp2p/go-libp2p-core/sec"
+	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/sec"
 	"github.com/libp2p/go-msgio"
 
-	ci "paidpiper.com/libp2p/go-libp2p-core/crypto"
-	pb "paidpiper.com/libp2p/go-libp2p-core/sec/insecure/pb"
+	ci "github.com/libp2p/go-libp2p-core/crypto"
+	pb "github.com/libp2p/go-libp2p-core/sec/insecure/pb"
 )
 
 // ID is the multistream-select protocol ID that should be used when identifying

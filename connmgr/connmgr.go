@@ -10,8 +10,8 @@ import (
 	"context"
 	"time"
 
-	"paidpiper.com/libp2p/go-libp2p-core/network"
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/network"
+	"github.com/libp2p/go-libp2p-core/peer"
 )
 
 // ConnManager tracks connections to peers, and allows consumers to associate metadata

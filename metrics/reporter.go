@@ -2,8 +2,8 @@
 package metrics
 
 import (
-	"paidpiper.com/libp2p/go-libp2p-core/peer"
-	"paidpiper.com/libp2p/go-libp2p-core/protocol"
+	"github.com/libp2p/go-libp2p-core/peer"
+	"github.com/libp2p/go-libp2p-core/protocol"
 )
 
 // Stats represents a point-in-time snapshot of bandwidth metrics.

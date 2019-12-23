@@ -6,7 +6,7 @@ package plaintext_pb
 import (
 	fmt "fmt"
 	proto "github.com/gogo/protobuf/proto"
-	pb "paidpiper.com/libp2p/go-libp2p-core/crypto/pb"
+	pb "github.com/libp2p/go-libp2p-core/crypto/pb"
 	io "io"
 	math "math"
 )
