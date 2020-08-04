@@ -4,6 +4,7 @@ package routing
 import (
 	"context"
 	"errors"
+	"time"
 
 	ci "github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/peer"
@@ -17,6 +18,17 @@ var ErrNotFound = errors.New("routing: not found")
 // ErrNotSupported is returned when the router doesn't support the given record
 // type/operation.
 var ErrNotSupported = errors.New("routing: operation or key not supported")
+
+type ContentListing struct {
+	Cid cid.Cid
+	Frequency uint64
+	LastUpdated time.Time
+}
+
+
+type FrequentContentProvider interface {
+	GetMostFrequentContentAsync(ctx context.Context) <- chan ContentListing
+}
 
 // ContentRouting is a value provider layer of indirection. It is used to find
 // information about who has what content.
@@ -72,6 +84,9 @@ type Routing interface {
 	ContentRouting
 	PeerRouting
 	ValueStore
+
+	FrequentContentProvider
+
 
 	// Bootstrap allows callers to hint to the routing system to get into a
 	// Boostrapped state and remain there. It is not a synchronous call.
