@@ -1,6 +1,10 @@
-module github.com/libp2p/go-libp2p-core
+module paidpiper.com/libp2p/go-libp2p-core
+
 
 go 1.13
+replace github.com/multiformats/go-multiaddr => ../go-multiaddr
+
+replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
 
 require (
 	github.com/btcsuite/btcd v0.20.1-beta
