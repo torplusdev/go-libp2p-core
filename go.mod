@@ -18,4 +18,8 @@ require (
 	go.opencensus.io v0.22.3
 )
 
+replace github.com/multiformats/go-multiaddr => ../go-multiaddr
+
+replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
+
 go 1.13
