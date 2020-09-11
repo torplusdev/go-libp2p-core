@@ -19,3 +19,10 @@ require (
 	github.com/multiformats/go-varint v0.0.6
 	go.opencensus.io v0.22.4
 )
+
+
+replace github.com/multiformats/go-multiaddr => ../go-multiaddr
+
+replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
+
+go 1.13
