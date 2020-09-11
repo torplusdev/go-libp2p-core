@@ -54,7 +54,8 @@ func SplitAddr(m ma.Multiaddr) (transport ma.Multiaddr, id ID) {
 	}
 
 	transport, p2ppart := ma.SplitLast(m)
-	if p2ppart == nil || p2ppart.Protocol().Code != ma.P_P2P {
+
+	if p2ppart == nil || (( p2ppart.Protocol().Code != ma.P_P2P) && ( p2ppart.Protocol().Code != ma.P_ONION3))  {
 		return m, ""
 	}
 	id = ID(p2ppart.RawValue()) // already validated by the multiaddr library.
