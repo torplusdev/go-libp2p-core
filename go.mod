@@ -14,14 +14,12 @@ require (
 	github.com/libp2p/go-openssl v0.0.7
 	github.com/minio/sha256-simd v0.1.1
 	github.com/mr-tron/base58 v1.2.0
-	github.com/multiformats/go-multiaddr v0.2.2
+	github.com/multiformats/go-multiaddr v0.3.0
 	github.com/multiformats/go-multihash v0.0.14
 	github.com/multiformats/go-varint v0.0.6
 	go.opencensus.io v0.22.4
 )
 
-
 replace github.com/multiformats/go-multiaddr => ../go-multiaddr
 
 replace github.com/multiformats/go-multiaddr-net => ../go-multiaddr-net
-
